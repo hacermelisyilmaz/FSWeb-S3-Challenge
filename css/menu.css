@@ -255,14 +255,14 @@ header div nav .nav {
 }
 
 .dark-bg {
-  padding: 5vh 0;
+  padding: 3vh 0;
   background-origin: border-box;
   background-color: rgb(0, 4, 17, 0.8);
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 3vh;
+  margin-bottom: 1vh;
 }
 
 .menu-container {
@@ -356,9 +356,30 @@ footer div p {
     font-size: 4rem;
   }
 
+  header nav .nav {
+    flex-direction: column;
+  }
+
+  .social-media {
+    gap: 3vw;
+  }
+
   /* menu */
   .menu {
     background-image: none;
+    background-color: rgb(225, 239, 230);
+    color: rgb(0, 4, 17);
+  }
+
+  .dark-bg {
+    background: none;
+  }
+
+  .underline {
+    width: 80%;
+    height: 1vh;
+    margin: 0 auto;
+    background-color: rgb(0, 4, 17);
   }
 
   /* footer section */
