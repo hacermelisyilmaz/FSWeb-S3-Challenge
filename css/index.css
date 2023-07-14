@@ -363,13 +363,13 @@ footer form label {
   text-align: center;
 }
 
-footer form input:nth-child(2) {
+footer form input {
   width: 60%;
   flex-grow: 4;
   flex-basis: 8em;
 }
 
-footer form input:last-child {
+footer form button {
   width: 30%;
   flex-grow: 1;
   flex-basis: 5em;
@@ -396,6 +396,20 @@ footer div p {
 /* mobile media query */
 @media (max-width: 428px) {
   /* header section */
+  .header-title {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  header nav .nav {
+    flex-direction: column;
+  }
+
+  .social-media {
+    gap: 3vw;
+  }
 
   /* gallery section */
   .gallery {
@@ -410,7 +424,6 @@ footer div p {
 
   .about h2 {
     width: 100%;
-    padding-top: 5vh;
   }
 
   .about-container .text {
@@ -445,5 +458,44 @@ footer div p {
     height: auto;
     padding-top: 2.5vh;
     font-size: 2rem;
+    flex-direction: column;
+  }
+
+  footer form {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer form input {
+    margin-top: 2vh;
+    width: 100%;
+    flex-basis: 0;
+  }
+
+  footer form button {
+    width: 100%;
+    margin-bottom: 2vh;
+    flex-basis: 0;
+  }
+
+  footer div {
+    width: 100%;
+  }
+
+  footer div {
+    flex-direction: column;
+  }
+
+  footer div nav {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  footer div p {
+    margin-top: 4vh;
+    align-self: center;
+    font-size: 0.5em;
   }
 }
