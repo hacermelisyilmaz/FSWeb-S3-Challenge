@@ -316,13 +316,13 @@ footer form label {
   text-align: center;
 }
 
-footer form input:nth-child(2) {
+footer form:nth-child(2) {
   width: 60%;
   flex-grow: 4;
   flex-basis: 8em;
 }
 
-footer form input:last-child {
+footer form:last-child {
   width: 30%;
   flex-grow: 1;
   flex-basis: 5em;
@@ -402,7 +402,43 @@ footer div p {
   /* footer section */
   footer {
     height: auto;
-    padding-top: 2.5vh;
     font-size: 2rem;
+    flex-direction: column;
+  }
+
+  footer form {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  footer form input {
+    margin-top: 2vh;
+    width: 100%;
+  }
+
+  footer form button {
+    width: 100%;
+    margin-bottom: 2vh;
+  }
+
+  footer div {
+    width: 100%;
+  }
+
+  footer div {
+    flex-direction: column;
+  }
+
+  footer div nav {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  footer div p {
+    margin-top: 4vh;
+    align-self: center;
+    font-size: 0.5em;
   }
 }
