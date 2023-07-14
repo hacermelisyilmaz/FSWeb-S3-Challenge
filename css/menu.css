@@ -279,7 +279,7 @@ h2 {
 }
 
 .menu-item {
-  padding: 3vh 0;
+  padding: 2vh 0;
   flex-wrap: wrap;
   align-content: space-around;
 }
@@ -375,11 +375,28 @@ footer div p {
     background: none;
   }
 
-  .underline {
-    width: 80%;
-    height: 1vh;
+  .menu .underline {
+    width: 70%;
+    height: 2vh;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+    background-color: rgb(0, 4, 17);
+  }
+
+  .menu .menu-section .underline {
+    width: 70%;
+    height: 0.5vh;
     margin: 0 auto;
     background-color: rgb(0, 4, 17);
+  }
+
+  .menu-container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu-section h3 {
+    border: 5px solid rgb(0, 4, 17);
   }
 
   /* footer section */
