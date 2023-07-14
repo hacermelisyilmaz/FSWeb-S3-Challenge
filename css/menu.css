@@ -229,7 +229,7 @@ header div nav .nav {
 .fa-brands {
   display: inline;
   font-size: 3em;
-  color: #ffffff;
+  color: rgb(225, 239, 230);
 }
 
 /* spacer */
@@ -245,15 +245,36 @@ header div nav .nav {
 }
 
 /* menu */
-
 .menu {
   width: 100%;
   height: auto;
   background-image: url("../img/staff-bartender.jpg");
-  background-color: rgb(0, 4, 17);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.dark-bg {
+  padding: 5vh 0;
+  background-origin: border-box;
+  background-color: rgb(0, 4, 17, 0.8);
+}
+
+h2 {
+  text-align: center;
+}
+
+.menu-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+  gap: 10vh;
+  padding: 0 10%;
+}
+
+.menu-section {
+  flex-shrink: 1;
+  flex-basis: 600px;
 }
 
 /* footer section */
@@ -305,6 +326,7 @@ footer div nav {
 
 footer div p {
   align-self: flex-end;
+  font-size: 2rem;
 }
 
 /* mobile media query */

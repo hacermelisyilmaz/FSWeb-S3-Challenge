@@ -390,6 +390,7 @@ footer div nav {
 
 footer div p {
   align-self: flex-end;
+  font-size: 2rem;
 }
 
 /* mobile media query */
