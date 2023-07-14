@@ -262,6 +262,7 @@ header div nav .nav {
 
 h2 {
   text-align: center;
+  margin-bottom: 3vh;
 }
 
 .menu-container {
@@ -275,6 +276,22 @@ h2 {
 .menu-section {
   flex-shrink: 1;
   flex-basis: 600px;
+}
+
+.menu-item {
+  padding: 3vh 0;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.menu-item h4 {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+
+.menu-item p {
+  flex-grow: 5;
+  flex-basis: 500px;
 }
 
 /* footer section */
